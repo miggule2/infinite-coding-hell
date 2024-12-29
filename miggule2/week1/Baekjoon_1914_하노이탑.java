@@ -13,6 +13,7 @@ public class Baekjoon_1914_하노이탑 {
         for(int i = 2; i < n+1; i++){
             array[i] = (array[i-1].multiply(BigInteger.valueOf(2)).add(BigInteger.valueOf(1)));
         }
+
         System.out.println(array[n]);
         if(n<=20){
             hanoi(n,0,2);
