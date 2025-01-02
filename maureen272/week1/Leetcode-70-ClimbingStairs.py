@@ -1,4 +1,5 @@
 #처음에는 재귀로 풀었으나 timeout이 발생하여 memoization을 사용하여 풂
+#Leetcode-level 1
 class Solution(object):
     def climbStairs(self, n):
         """
