@@ -1,7 +1,6 @@
 package week3;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.io.*;
 import java.util.Comparator;
 
@@ -24,8 +23,8 @@ public class BOJ_2667_단지번호붙이기 {
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                dfs(i,j);
-                if(result != 0) {
+                if(array[i][j] == 1){
+                    dfs(i,j);
                     total++;
                     list.add(result);
                     result = 0;
