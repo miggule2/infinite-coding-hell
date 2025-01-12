@@ -23,7 +23,7 @@ public class BOJ_7562_나이트의이동 {
             int[] end = {Integer.parseInt(stringEnd[0]), Integer.parseInt(stringEnd[1])};
 
             boolean[][] visited = new boolean[size][size]; // 방문 노드
-            int count = 0;
+            int count = 0; // 사이클 횟수 (한 나이트가 이동한 횟수)
             boolean flag = false;
             queue.add(start);
             visited[start[0]][start[1]] = true;
