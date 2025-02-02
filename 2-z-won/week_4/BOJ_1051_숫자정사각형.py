@@ -1,3 +1,4 @@
+
 a, b = map(int, input().split())
 num_list = []
 
@@ -9,4 +10,3 @@ for row in num_list:
     temp = row[0]
     for digit in row:
         continue
-
