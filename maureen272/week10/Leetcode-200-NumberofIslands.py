@@ -16,7 +16,7 @@ class Solution(object):
             dfs(i,j+1)
             dfs(i,j-1)
 
-        count = 0
+        count = 0 # 섬의 개수
         for i in range(len(grid)): 
             for j in range(len(grid[0])):
                 if grid[i][j] == '1': # 육지인 경우
