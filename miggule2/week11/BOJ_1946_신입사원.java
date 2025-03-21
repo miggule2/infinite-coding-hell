@@ -23,7 +23,7 @@ public class BOJ_1946_신입사원 {
             int min = Integer.MAX_VALUE;
             for(int j = 0; j < n; j++){
                 if(min > arr[j][1]){
-                    min = arr[j][1];
+                    min = arr[j][1 ];
                     cnt++;
                 }
             }

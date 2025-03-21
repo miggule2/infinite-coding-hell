@@ -40,6 +40,6 @@ public class BOJ_2343_기타레슨 {
             else left = mid + 1;
         }
 
-        System.out.println(left);;
+        System.out.println(left);
     }
 }
