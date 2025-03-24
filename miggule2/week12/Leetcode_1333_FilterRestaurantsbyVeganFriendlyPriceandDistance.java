@@ -1,8 +1,9 @@
 package week12;
 
+import java.util.*;
 public class Leetcode_1333_FilterRestaurantsbyVeganFriendlyPriceandDistance {
     public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
-        HashMap<Integer,Queue<int[]>> map = new HashMap<>();
+        HashMap<Integer, Queue<int[]>> map = new HashMap<>();
         Arrays.sort(restaurants,Comparator.comparingInt(a -> a[0]));
         for(int i =0; i < restaurants.length; i++){
             if(!map.containsKey(restaurants[i][1])) map.put(restaurants[i][1], new LinkedList<>());
