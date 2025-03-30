@@ -12,10 +12,10 @@
 6. (선택) 설계도나 코드 설명과 같은 .pdf도 같이 ```Pull Request``` 가능.(이 경우 소스코드와 묶어 폴더로 PR)
 
 ## ✅ 소스코드 파일 이름 규칙
-* ```사이트이름_문제번호_문제명(뒤에는 자유롭게 추가)``` 으로 작성 ( ```BOJ_1260_BFS와DFS_RecursionAndQueue.java``` )
+* ```사이트이름_문제번호_문제명(뒤에는 자유롭게 추가)``` 으로 작성 ( ```BOJ_1260_BFS와DFS_RecursionAndQueue``` )
 
 ## ✅ commit 규칙
 * commit 메세지 : ```[사이트이름] 문제명 / 티어 혹은 난이도 / 걸린 시간```
 
 ## ✅ Pull Request 규칙
-* Pull Request 제목 : 자기 이름 / 주자 / 문제 수 ( ```DongHyun KIM / 3주차 / 3문제``` )
+* Pull Request 제목 : 자기 이름 / 주차 / 문제 수 ( ```DongHyun KIM / 3주차 / 3문제``` )
