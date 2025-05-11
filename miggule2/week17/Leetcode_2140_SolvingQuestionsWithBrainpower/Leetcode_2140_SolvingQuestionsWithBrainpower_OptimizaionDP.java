@@ -1,4 +1,4 @@
-package week16.Leetcode_2140_SolvingQuestionsWithBrainpower;
+package week17.Leetcode_2140_SolvingQuestionsWithBrainpower;
 
 public class Leetcode_2140_SolvingQuestionsWithBrainpower_OptimizaionDP {
     class Solution {
