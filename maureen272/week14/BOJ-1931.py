@@ -10,10 +10,6 @@ meetings.sort(key=lambda x: (x[1], x[0])) # 끝나는 시간 기준으로 정렬
 end_time = 0 # 마지막 회의 끝나는 시간
 count = 0 # 회의 개수
 
-# 회의 개수 세기
-
-
-
 for start, end in meetings: 
     if start >= end_time: # 시작시간이 마지막 회의 끝나는 시간보다 크거나 같으면 회의 가능
         end_time = end # 끝나는 시간 갱신
