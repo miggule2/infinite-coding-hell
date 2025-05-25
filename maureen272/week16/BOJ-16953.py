@@ -1,4 +1,4 @@
-# BOJ-16953-A → B
+# BOJ-16953- A → B
 def min_operations(A, B):
     operations = 0
     while B > A:
