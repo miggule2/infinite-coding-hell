@@ -1,4 +1,4 @@
-package week17.Leetcode_427_ConstructQuadTree;
+package week16.Leetcode_427_ConstructQuadTree;
 
 /*
 // Definition for a QuadTree node.

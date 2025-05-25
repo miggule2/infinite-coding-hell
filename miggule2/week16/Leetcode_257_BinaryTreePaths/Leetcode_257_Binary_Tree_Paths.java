@@ -1,4 +1,4 @@
-package week17.Leetcode_257_BinaryTreePaths;
+package week16.Leetcode_257_BinaryTreePaths;
 
 import java.util.*;
 
