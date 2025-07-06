@@ -1,4 +1,5 @@
 # BOJ - 1167 - 트리의 지름
+# 트리의 지름을 구하는 문제로, 두 번의 DFS를 통해 해결
 import sys
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
