@@ -17,7 +17,7 @@ class Solution(object):
         root_val = preorder[0]
         root = TreeNode(root_val)
         
-        root_index_in_inorder = inorder.index(root_val)
+        root_index_in_inorder = inorder.index(root_val) # 루트 노드의 인덱스를 inorder에서 찾기
         # 주석 한국어로 달아줘
         # 루트 노드의 인덱스를 inorder에서 찾기
         left_inorder = inorder[:root_index_in_inorder] # 왼쪽 서브트리의 inorder
