@@ -6,7 +6,9 @@ class Solution(object):
         """
         result = sum(max(prices[i] - prices[i-1], 0) for i in range(1, len(prices)-1))
         return result
+    
     '''
+    # 그리디 알고리즘
     def maxProfit(self, prices):
         result = 0
         # 값이 오르는 경우 그리디로 계산
