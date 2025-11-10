@@ -7,13 +7,6 @@ import sys
 from collections import Counter
 from util import *
 
-############################################################
-# Problem 3: binary classification
-############################################################
-
-############################################################
-# Problem 3a: feature extraction
-
 def extractWordFeatures(x):
     """
     Extract word features for a string x. Words are delimited by
@@ -26,6 +19,4 @@ def extractWordFeatures(x):
     return dict(Counter(x.split()))
     # END_YOUR_CODE
 
-############################################################
-# Problem 3b: stochastic gradient descent
 
