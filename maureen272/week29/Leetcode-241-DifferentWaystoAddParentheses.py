@@ -1,9 +1,5 @@
 class Solution(object):
     def diffWaysToCompute(self, expression):
-        """
-        :type expression: str
-        :rtype: List[int]
-        """
 
         # 두 리스트(left, right)의 가능한 모든 조합에 대해 연산 수행
         def compute(left, right, op):
