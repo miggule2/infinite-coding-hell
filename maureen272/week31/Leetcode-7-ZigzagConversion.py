@@ -12,7 +12,7 @@ class Solution(object):
         # 각 줄을 담을 리스트
         rows = [""] * numRows
 
-        current_row = 0
+        current_row = 0 # 현재 줄 번호
         going_down = False  # 현재 이동 방향
 
         for ch in s:
