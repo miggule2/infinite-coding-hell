@@ -1,1 +1,8 @@
-print(*sorted(map(int,[*open(0)][1:])))
+n = int(input())
+l = list()
+for _ in range(n):
+    l.append(int(input()))
+
+l.sort()
+for i in l:
+    print(i)
